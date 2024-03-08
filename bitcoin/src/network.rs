@@ -313,6 +313,7 @@ mod tests {
             ServiceFlags::WITNESS,
             ServiceFlags::COMPACT_FILTERS,
             ServiceFlags::NETWORK_LIMITED,
+            ServiceFlags::P2P_V2,
         ];
 
         let mut flags = ServiceFlags::NONE;
